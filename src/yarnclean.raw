@@ -1,0 +1,91 @@
+# test directories
+__tests__
+test
+tests
+powered-test
+benchmark
+
+# asset directories
+docs
+doc
+demo
+man
+
+# examples
+example
+examples
+
+# code coverage directories
+coverage
+.nyc_output
+
+# build scripts
+Cakefile
+GNUmakefile
+Gulpfile.js
+Gruntfile.js
+Makefile
+
+# configs
+appveyor.yml
+bower.json
+circle.yml
+codeship-services.yml
+codeship-steps.yml
+karma.conf.*
+wercker.yml
+yarn.lock
+.babelrc
+.codeclimate.yml
+.coveralls.yml
+.documentup.json
+.editorconfig
+.eslint*
+.flowconfig
+.gitmodules
+.idea
+.istanbul.yml
+.jshintrc
+.lint
+.gitattributes
+.npmignore
+.tern-project
+.travis.yml
+.yarn-metadata.json
+.zuul.yml
+.*ignore
+
+# node_modules
+node_modules/.bin
+
+# TypeScript
+typings
+*.d.ts
+
+# misc
+*~
+*.png
+*.gif
+*.jpeg
+*.txt
+*.md
+*.markdown
+*.bak
+AUTHORS*
+CHANGES*
+CHANGELOG*
+CODE_OF_CONDUCT*
+CONTRIBUTING*
+LICENSE*
+LICENCE* # sic.
+PATENTS*
+README*
+UNLICENSE*
+
+# package-specific
+/aws-sdk/dist
+/ajv/dist
+/ajv/scripts
+/handlebars/dist
+/moment/min
+/source-map/dist
