@@ -1,6 +1,6 @@
 {
   "name": "@textpress/gulp-install-node-modules",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Installs and trims node_modules",
   "main": "lib/index.js",
   "repository": "github:textpress/gulp-install-node-modules",
