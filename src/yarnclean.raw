@@ -81,11 +81,3 @@ LICENCE* # sic.
 PATENTS*
 README*
 UNLICENSE*
-
-# package-specific
-/aws-sdk/dist
-/ajv/dist
-/ajv/scripts
-/handlebars/dist
-/moment/min
-/source-map/dist
