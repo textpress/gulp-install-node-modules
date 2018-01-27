@@ -14,10 +14,10 @@ export function writeYarncleanFile( buildFolder, entries ) {
 }
 
 
-export function install( buildFolder, entries = [] ) {
+export function install( { buildFolder, exclude = [] } ) {
     return gulp.src( "" )
         .pipe( through.obj( ( chunk, enc, cb ) => {
-            writeYarncleanFile( buildFolder, entries );
+            writeYarncleanFile( buildFolder, exclude );
             cb( null, chunk );
         } ) )
         .pipe( exec( `cd ${buildFolder} && yarn install --production` ) );
